@@ -1,0 +1,35 @@
+#board {
+  border: 1px solid black;
+  background-color: gray;
+  height: 620px;
+  width: 1320px;
+}
+
+.start {
+  text-align: left;
+}
+.character {
+  background: url("Guest.jpg");
+  background-size: cover;
+  background-position: right;
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.thief {
+  background: url(Thief.jpg);
+  background-size: cover;
+  background-position: right;
+}
